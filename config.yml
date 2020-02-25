@@ -1,22 +1,9 @@
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
-language: de
 pipeline: supervised_embeddings
-- name: "WhitespaceTokenizer"
-- name: "RegexFeaturizer"
-- name: "CRFEntityExtraction"
-- name: "EntitySynonymMapper"
-- name: "CountVectorsFeaturizer"
-- name: "EmbeddingIntentClassifier"
-
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
+language: de
 policies:
-  - name: KerasPolicy
-    epochs: 100
-  - name: MappingPolicy
-  - name: EmbeddingPolicy
-  - name: MemoizationPolicy
-    max_history: 5
-  - name: FallbackPolicy
-    fallback_action_name: 'action_default_fallback'
+- name: MemoizationPolicy
+- name: KerasPolicy
+- name: MappingPolicy
+- name: EmbeddingPolicy
+- name: FallbackPolicy
+  fallback_action_name: action_default_fallback

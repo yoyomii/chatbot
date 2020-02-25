@@ -10,6 +10,9 @@
 - Hi
 - hi
 - Grüße Dich
+- Hello
+- Grüß dich
+- hello
 
 ## intent:verabschiedung
 - Tschüss
@@ -21,6 +24,7 @@
 - Bis dann
 - tschüss
 - Bye
+- Bis später
 
 ## intent:retourenlabeldrucken
 - Können Sie mir ein neues [Retourenlabel](label) zukommen lassen?
@@ -37,6 +41,7 @@
 - [WA0312](artikel)
 - [WA0346](artikel)
 - [WA0245](artikel)
+- [WA0323](artikel)
 
 ## intent:artikel_verfuegbarkeit
 - Ist die [Armbanduhr](artikelbezeichnung) [WA0312](artikel) noch verfügbar?
@@ -47,6 +52,8 @@
 - Kannst du mir sagen, wann ich den [Stoppuhr](artikelbezeichnung) [WA0245](artikel) wieder bekomme?
 - Nächstmöglicher Lieferzeitpunkt [Produkt](artikelbezeichnung)
 - Kann ich eine Benachrichtigung bekommen, wenn der [Artikel](artikelbezeichnung) wieder verfügbar ist?
+- ist der artikel noch lieferbar?
+- Ist der [Artikel](artikelbezeichnung) [WA0169](artikel) noch verfügbar?
 
 ## intent:email_adresse
 - test123[@](mail)web.de
@@ -55,6 +62,8 @@
 - PeterPeter123[@](mail)test.de
 - sunny[@](mail)testdomäne.de
 - MachineLearning[@](mail)test.de
+- testmail@bot.de
+- Huber-johannes96@web.de
 
 ## intent:dank
 - danke
@@ -66,6 +75,7 @@
 - ja danke
 - Hammer!
 - Wow Danke
+- Danke
 
 ## intent:zustimmung
 - ja
@@ -75,6 +85,7 @@
 - korrekt
 - Das ist korrekt
 - Richtig
+- Ja
 
 ## intent:ablehnung
 - nein

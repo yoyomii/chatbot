@@ -20,10 +20,56 @@ slots:
     type: text
   label:
     type: text
+templates:
+  utter_begruessung:
+  - text: ' Hallo! Wie kann ich Ihnen weiterhelfen?'
+  - text: Hallo! Schön, dass sie da sind. Was ist ihr Anliegen?
+  - text: Guten Tag! Wie kann ich Ihnen behilflich sein?
+  utter_retourenlabeldrucken:
+  - text: 'Hier können Sie sich ein neues Retourenlabel nachdrucken: https://amsel.dpwn.net/abholportal/gw/lp/portal/thomassabo/customer/RpOrder.action?delivery=RetourenLager02'
+  utter_verfuegbarkeitpruefen:
+  - text: Leider ist der Artikel {artikel} nicht mehr verfügbar.
+  - text: '{artikel} ist aktuell leider nicht mehr verfügbar.'
+  utter_benachrichtigung_wenn_verfuegbar:
+  - text: Sollen wir Sie benachrichtigen, wenn der Artikel wieder verfügbar ist?
+  utter_benachrichtigung_einschalten:
+  - text: Bitte geben Sie ihre E-Mail Adresse ein!
+  utter_bestaetigung:
+  - text: Danke für Ihr Vertrauen! Sie werden benachrichtigt, wenn das Produkt wieder
+      verfügbar ist.
+  utter_dank:
+  - text: Freut mich, dass ich Ihnen helfen konnte!
+  utter_hilfe_erfolgreich:
+  - text: War das hilfreich für Sie?
+  - text: Hat Ihnen das geholfen?
+  utter_artikelnummer:
+  - text: Bitte geben Sie die Artikelnummer ein, deren Verfügbarkeit Sie prüfen möchten.
+  - text: Für die Prüfung der Artikelverfügbarkeit, brauche ich eine gültige Artikelnummer.
+  utter_weitere_fragen:
+  - text: Kann ich sonst noch etwas für Sie tun?
+  - text: Haben Sie noch weitere Anliegen?
+  utter_weitere_fragen2:
+  - text: Was genau ist ihr Anliegen?
+  utter_ablehnung:
+  - text: Schade, dass ihr Anliegen nicht gelöst werden konnte.
+  - text: Es tut mir leid, dass ich Ihnen nicht direkt helfen konnte.
+  utter_verweisservice:
+  - text: Bitte wenden Sie sich an unseren Support unter      +49 (0) 91 23-97 15
+      0, per Kontaktformular auf unserer Website thomassabo.com/kontakt oder per Mail
+      unter service@thomassabo.com
+  utter_verabschiedung:
+  - text: Bis bald!
+  - text: Auf Wiedersehen!
+  utter_default:
+  - text: Entschuldigen Sie mich, ich verstehe ihre Aussage nicht.
+  - text: Das verstehe ich leider nicht. Können Sie das anders formulieren?
+  utter_link:
+  - text: https://amsel.dpwn.net/abholportal/gw/lp/portal/thomassabo/customer/RpOrder.action?delivery=RetourenLager02
 actions:
 - utter_begruessung
 - utter_verabschiedung
 - utter_retourenlabeldrucken
+- utter_link
 - utter_verfuegbarkeitpruefen
 - utter_benachrichtigung_wenn_verfuegbar
 - utter_benachrichtigung_einschalten
