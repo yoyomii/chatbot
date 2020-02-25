@@ -39,14 +39,14 @@
 - [WA0245](artikel)
 
 ## intent:artikel_verfuegbarkeit
-- Ist die [Armbanduhr](artikelbezeichnung) [WA0312](artikel) noch verfügbar? 
+- Ist die [Armbanduhr](artikelbezeichnung) [WA0312](artikel) noch verfügbar?
 - Ab wann ist die [Uhr](artikelbezeichnung) [WA0124](artikel) wieder lieferbar?
 - [Stundenzähler](artikelbezeichnung) [WA0346](artikel) wieder verfügbar
 - [WATCH](artikelbezeichnung) [KE667](artikel) wieder verfügbar
 - Wann kann ich den [Abstandsmesser](artikelbezeichnung) [WA0322](artikel) wieder bekommen?
 - Kannst du mir sagen, wann ich den [Stoppuhr](artikelbezeichnung) [WA0245](artikel) wieder bekomme?
 - Nächstmöglicher Lieferzeitpunkt [Produkt](artikelbezeichnung)
-- Kann ich eine Benachrichtigung bekommen, wenn der [Artikel](artikelbezeichnung) wieder verfügbar ist? 
+- Kann ich eine Benachrichtigung bekommen, wenn der [Artikel](artikelbezeichnung) wieder verfügbar ist?
 
 ## intent:email_adresse
 - test123[@](mail)web.de
@@ -86,3 +86,8 @@
 - Niemals
 - Nicht wirklich
 
+## synonym:Retourenlabel
+- Retourenschein
+- Retourenettikett
+- retourenlabel
+- Rücksendelabel
