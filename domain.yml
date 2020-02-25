@@ -1,0 +1,104 @@
+intents:
+  - begruessung
+  - verabschiedung
+  - retourenlabeldrucken
+  - artikelnummern
+  - artikel_verfuegbarkeit
+  - email_adresse
+  - dank
+  - zustimmung
+  - ablehnung
+
+actions:
+- utter_begruessung
+- utter_verabschiedung
+- utter_retourenlabeldrucken
+- utter_verfuegbarkeitpruefen
+- utter_benachrichtigung_wenn_verfuegbar
+- utter_benachrichtigung_einschalten
+- utter_bestaetigung
+- utter_dank
+- utter_artikelnummer
+- utter_ablehnung
+- utter_hilfe_erfolgreich
+- utter_weitere_fragen
+- utter_weitere_fragen2
+- utter_verweisservice
+- utter_default
+
+
+responses:
+  utter_begruessung:
+  - text: "Hallo! Wie kann ich Ihnen weiterhelfen?"
+  - text: "Guten Tag! Wie kann ich Ihnen behilflich sein?"
+
+  utter_retourenlabeldrucken:
+  - text: "Hier können Sie sich ganz leicht ein neues Retourenlabel nachdrucken."
+    link: "https://amsel.dpwn.net/abholportal/gw/lp/portal/thomassabo/customer/RpOrder.action?delivery=RetourenLager02"
+
+  utter_verfuegbarkeitpruefen:
+  - text: "Leider ist der Artikel {artikel} nicht mehr verfügbar."
+  - text: "{artikelbezeichnung} {artikel} ist aktuell leider nicht mehr verfügbar."
+
+  utter_benachrichtigung_wenn_verfuegbar:
+  - text: "Sollen wir Sie benachrichtigen, wenn der Artikel wieder verfügbar ist?"
+
+  utter_benachrichtigung_einschalten:
+  - text: "Bitte geben Sie ihre E-Mail Adresse ein!"
+
+  utter_bestaetigung:
+  - text: "Danke für Ihr Vertrauen! Sie werden benachrichtigt, wenn das Produkt wieder verfügbar ist."
+
+  utter_dank:
+  - text: "Sehr gut!"
+  - text: "Freut mich, dass ich Ihnen helfen konnte!"
+
+  utter_hilfe_erfolgreich:
+  - text: "Hat Ihnen das geholfen?"
+  - text: "War das hilfreich für Sie?"
+
+  utter_artikelnummer:
+  - text: "Bitte geben Sie die Artikelnummer ein, deren Verfügbarkeit Sie prüfen möchten."
+  - text: "Für die Prüfung der Artikelverfügbarkeit, brauche ich eine gültige Artikelnummer."
+
+  utter_weitere_fragen:
+  - text: "Kann ich sonst noch was für Sie tun?"
+  - text: "Haben Sie noch weitere Anliegen?"
+
+  utter_weitere_fragen2:
+  - text: "Was ist ihr Anliegen?"
+
+  utter_ablehnung:
+  - text: "Es tut mir leid, dass ich Ihnen nicht direkt helfen konnte."
+  - text: "Schade, dass ihr Anliegen nicht gelöst werden konnte."
+
+  utter_verweisservice:
+  - text: "Bitte wenden Sie sich an unseren Support unter +49 (0) 91 23-97 15 0,
+          per Kontaktformular auf unserer Website thomassabo.com/kontakt oder
+          kontaktieren Sie uns per Mail unter service@thomassabo.com"
+
+  utter_verabschiedung:
+  - text: "Bis bald!"
+  - text: "Auf Wiedersehen!"
+
+  utter_default:
+    - text: "Entschuldigen Sie mich, ich verstehe Sie nicht."
+    - text: "Das verstehe ich leider nicht."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+entities:
+  - label
+  - artikel
+  - artikelbezeichnung
+  - mail
+
+slots:
+  artikel:
+      type: text
+  artikelbezeichnung:
+      type: text
+  label:
+      type: text
