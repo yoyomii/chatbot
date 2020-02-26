@@ -26,7 +26,7 @@ templates:
   - text: Hallo! Schön, dass sie da sind. Was ist ihr Anliegen?
   - text: Guten Tag! Wie kann ich Ihnen behilflich sein?
   utter_retourenlabeldrucken:
-  - text: 'Hier können Sie sich ein neues Retourenlabel nachdrucken: https://amsel.dpwn.net/abholportal/gw/lp/portal/thomassabo/customer/RpOrder.action?delivery=RetourenLager02'
+  - text: Hier können Sie sich ein neues Retourenlabel nachdrucken
   utter_verfuegbarkeitpruefen:
   - text: Leider ist der Artikel {artikel} nicht mehr verfügbar.
   - text: '{artikel} ist aktuell leider nicht mehr verfügbar.'

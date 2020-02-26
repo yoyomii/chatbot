@@ -25,6 +25,7 @@
 - tschüss
 - Bye
 - Bis später
+- Auf wiedersehen
 
 ## intent:retourenlabeldrucken
 - Können Sie mir ein neues [Retourenlabel](label) zukommen lassen?
@@ -32,6 +33,10 @@
 - Ich brauch ein neues [Retourenettikett](label:Retourenlabel)
 - ich habe meinen [Retourenschein](label:Retourenlabel) verloren
 - Ich hab mein [Rücksendelabel](label:Retourenlabel) nicht mehr
+- ich brauche neue rücksendeunterlagen
+- [Retourenlabel](label) drucken
+- [Retourenlabel](label)
+- [retourenlabel](label:Retourenlabel)
 
 ## intent:artikelnummern
 - [WA0322](artikel)
@@ -42,6 +47,7 @@
 - [WA0346](artikel)
 - [WA0245](artikel)
 - [WA0323](artikel)
+- [WA012345](artikel)
 
 ## intent:artikel_verfuegbarkeit
 - Ist die [Armbanduhr](artikelbezeichnung) [WA0312](artikel) noch verfügbar?
@@ -54,6 +60,8 @@
 - Kann ich eine Benachrichtigung bekommen, wenn der [Artikel](artikelbezeichnung) wieder verfügbar ist?
 - ist der artikel noch lieferbar?
 - Ist der [Artikel](artikelbezeichnung) [WA0169](artikel) noch verfügbar?
+- Ist der [Artikel](artikelbezeichnung) noch verfügbar?
+- Ist der [Artikel](artikelbezeichnung) [WA0123](artikel) noch verfügbar?
 
 ## intent:email_adresse
 - test123[@](mail)web.de
