@@ -74,15 +74,6 @@
     - utter_weitere_fragen
 * zustimmung
     - utter_weitere_fragen2
- 
- ## prozessuhr_benachrichtigung_ja_v1.2.1
-* artikel_verfuegbarkeit{"artikelbezeichnung":"uhr", "artikel":"WA0322"}
-    - utter_verfuegbarkeitpruefen
-    - utter_benachrichtigung_wenn_verfuegbar
-* ablehnung
-    - utter_weitere_fragen
-* ablehnung
-    - utter_verabschiedung
 
 ## prozessuhr_benachrichtigung_ja_v1.2.2
 * artikel_verfuegbarkeit{"artikelbezeichnung":"uhr", "artikel":"WA0322"}
@@ -181,3 +172,12 @@
     - utter_weitere_fragen
 * ablehnung
 	- utter_verabschiedung
+
+## prozessuhr_benachrichtigung_ja_v1.2.1
+* artikel_verfuegbarkeit{"artikelbezeichnung":"uhr", "artikel":"WA0322"}
+    - utter_verfuegbarkeitpruefen
+    - utter_benachrichtigung_wenn_verfuegbar
+* ablehnung
+    - utter_weitere_fragen
+* ablehnung
+    - utter_verabschiedung
