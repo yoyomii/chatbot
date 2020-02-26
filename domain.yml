@@ -23,7 +23,7 @@ slots:
 templates:
   utter_begruessung:
   - text: ' Hallo! Wie kann ich Ihnen weiterhelfen?'
-  - text: Hallo! Schön, dass sie da sind. Wie kann ich Ihnen behilflich sein?
+  - text: Hallo! Schön, dass Sie da sind. Wie kann ich Ihnen behilflich sein?
   - text: Guten Tag! Wie kann ich Ihnen behilflich sein?
   utter_retourenlabeldrucken:
   - text: Hier können Sie sich ein neues Retourenlabel nachdrucken

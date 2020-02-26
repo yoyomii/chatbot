@@ -38,6 +38,7 @@
 - [Retourenlabel](label)
 - [retourenlabel](label:Retourenlabel)
 - Ich brauche ein neues [retourenlabel](label:Retourenlabel)
+- ich brauche ein [retourenlabel](label:Retourenlabel)
 
 ## intent:artikelnummern
 - [WA0322](artikel)
@@ -106,6 +107,7 @@
 - Niemals
 - Nicht wirklich
 - nein das hat mir nicht geholfen
+- [NEIN](artikel)
 
 ## synonym:Retourenlabel
 - Retourenschein

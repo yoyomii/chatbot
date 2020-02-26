@@ -181,3 +181,51 @@
     - utter_weitere_fragen
 * ablehnung
     - utter_verabschiedung
+
+## Story from conversation with e26a7e33-f10f-4332-9b91-0a7fc84b4d8c on February 26th 2020
+
+* begruessung
+    - utter_begruessung
+* retourenlabeldrucken{"label":"Retourenlabel"}
+    - slot{"label":"Retourenlabel"}
+    - utter_retourenlabeldrucken
+    - utter_link
+    - utter_hilfe_erfolgreich
+* ablehnung
+    - slot{"label":"Retourenlabel"}
+    - utter_ablehnung
+    - utter_verweisservice
+    - utter_weitere_fragen
+
+## Story from conversation with e26a7e33-f10f-4332-9b91-0a7fc84b4d8c on February 26th 2020
+
+* begruessung
+    - utter_begruessung
+* retourenlabeldrucken{"label":"Retourenlabel"}
+    - slot{"label":"Retourenlabel"}
+    - utter_retourenlabeldrucken
+    - utter_link
+    - utter_hilfe_erfolgreich
+* ablehnung
+    - slot{"label":"Retourenlabel"}
+    - utter_ablehnung
+    - utter_verweisservice
+    - utter_weitere_fragen
+
+## New Story
+
+* begruessung
+    - utter_begruessung
+* retourenlabeldrucken{"label":"Retourenlabel"}
+    - slot{"label":"Retourenlabel"}
+    - utter_retourenlabeldrucken
+    - utter_link
+    - utter_hilfe_erfolgreich
+    - slot{"label":"Retourenlabel"}
+* ablehnung{"artikel":"NEIN"}
+    - slot{"artikel":"NEIN"}
+    - slot{"label":"Retourenlabel"}
+    - slot{"artikel":"NEIN"}
+    - utter_ablehnung
+    - utter_verweisservice
+    - utter_weitere_fragen
