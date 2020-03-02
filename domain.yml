@@ -8,6 +8,7 @@ intents:
 - dank
 - zustimmung
 - ablehnung
+- weitere_frage
 entities:
 - label
 - artikel
@@ -64,7 +65,7 @@ templates:
   - text: Entschuldigen Sie mich, ich verstehe ihre Aussage nicht.
   - text: Das verstehe ich leider nicht. Können Sie das anders formulieren?
   utter_link:
-  - text: https://amsel.dpwn.net/abholportal/gw/lp/portal/thomassabo/customer/RpOrder.action?delivery=RetourenLager02
+  - text: https://www.dhl.de/dhl-rpi/gw/rpcustomerweb/OrderAnon.action?__userlocale=DE&__gwfs=5715911584326118400
 actions:
 - utter_begruessung
 - utter_verabschiedung

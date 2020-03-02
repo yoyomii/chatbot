@@ -26,6 +26,8 @@
 - Bye
 - Bis später
 - Auf wiedersehen
+- ciao
+- bis dann
 
 ## intent:retourenlabeldrucken
 - Können Sie mir ein neues [Retourenlabel](label) zukommen lassen?
@@ -47,6 +49,15 @@
 - ich möchte bitte meine bestellung zurück senden
 - Ich brauche ein [Versandlabel](label)
 - Ich benötige ein [Retourenlabel](label)
+- [Retourenlabel](label) nachdrucken
+- Ich hatte bei meiner Onlinebestellung kein [Retourelabel](label) dabei und bräuchte noch eines zugeschickt
+- [reoutenlabel](label)
+- woher bekomme ich mein [Retourelabel](label)
+- ich brauche ein [retourelabel](label)
+- Retoourenetikett
+- Ich hätte gerne ein Label für die Retoure
+- Bei meiner Onlinebestellung war kein Rücksendeschein beigelegt
+- Ich bräuchte noch eine [Retourenlabel](label) für meine letzte bestellung, leider hat nicht alles gepasst
 
 ## intent:artikelnummern
 - [WA0322](artikel)
@@ -59,6 +70,7 @@
 - [WA0323](artikel)
 - [WA012345](artikel)
 - [WA0332](artikel)
+- wa0332
 
 ## intent:artikel_verfuegbarkeit
 - Ist die [Armbanduhr](artikelbezeichnung) [WA0312](artikel) noch verfügbar?
@@ -86,6 +98,12 @@
 - ist der [artikel](artikelbezeichnung) [AR088](artikel) aktuell verfügbar?
 - ja, ich würde gerne eine andere Uhr dafür kaufen, ist die [Uhr](artikelbezeichnung) [WA0333](artikel) aktull verfügbar
 - Ich möchte gerne wissen, ob die [Uhr](artikelbezeichnung) [WA0332](artikel) verfügbar ist
+- ist der [artikel](artikelbezeichnung) [WA0542](artikel) noch verfugbar
+- gibt es den [Artikel](artikelbezeichnung) [AR099](artikel)
+- Wie sieht die Verfügbarkeit des [Artikel](artikelbezeichnung) [WA0332](artikel) aus?
+- [ist](artikelbezeichnung) [WA0343-201-215](artikel) noch verfügbar?
+- Ist der [Artikel](artikelbezeichnung) verfügbar?
+- Wo ist der nächste Shop
 
 ## intent:email_adresse
 - test123[@](mail)web.de
@@ -97,6 +115,8 @@
 - testmail@bot.de
 - Huber-johannes96@web.de
 - lara.jacob@thomassabo.com
+- werner@oas.de
+- y.stoecklein@thomassabo.com
 
 ## intent:dank
 - danke
@@ -112,6 +132,7 @@
 - Dank für die Hilfe
 - Ja danke
 - du bist der hammer
+- ja, super danke
 
 ## intent:zustimmung
 - ja
@@ -123,6 +144,9 @@
 - Richtig
 - Ja
 - ja, bitte
+- Bitte ja
+- ja super
+- ja bitte
 
 ## intent:ablehnung
 - nein
@@ -139,6 +163,11 @@
 - Will ich nicht
 - Nein danke
 - nein, danke
+- das war nicht meine Frage
+- nein bitte nicht
+
+## intent:weitere_frage
+- ich habe noch eine Frage
 
 ## synonym:Retourenlabel
 - Retourenschein
