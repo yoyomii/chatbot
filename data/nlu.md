@@ -58,6 +58,10 @@
 - Ich hätte gerne ein Label für die Retoure
 - Bei meiner Onlinebestellung war kein Rücksendeschein beigelegt
 - Ich bräuchte noch eine [Retourenlabel](label) für meine letzte bestellung, leider hat nicht alles gepasst
+- kann ich die retourenaufkleer auch selber ausdrucken?
+- wenn ich etwas zurücksenden will, brauche ich da so ein etikett
+- ja, ich benötigen noch so einen Rücksendezettel
+- Ich brauche ein [Retourenlabel](label)
 
 ## intent:artikelnummern
 - [WA0322](artikel)
@@ -104,6 +108,19 @@
 - [ist](artikelbezeichnung) [WA0343-201-215](artikel) noch verfügbar?
 - Ist der [Artikel](artikelbezeichnung) verfügbar?
 - Wo ist der nächste Shop
+- Wie sieht es mit einem Armband aus, z. [B](artikelbezeichnung). [AR099](artikel)
+- ist denn überhaupt irgend ein artikel verfügbar?
+- Ja, ich will wissen, ob eine Uhr, nämlich die mit der [Nummer](artikelbezeichnung) [AR087](artikel) noch bestellt werden kann. Ich finde die nicht im Webshop.
+- Kann man [die](artikelbezeichnung) [AR087](artikel) noch käuflich erwerben?
+- [AR087](artikel)
+- ar087
+- kann man die ar87 noch kaufen
+- gibt es die rm xxx009 noch
+- Na, ob Ihr die auf Lager habt.
+- Na, ob Ihr auch Uhren habt?
+- hi habt ihr auch uhren?
+- ist meine Uhr verfügbar?
+- Ist der [Artikel](artikelbezeichnung) [WA0322](artikel) noch verfügbar?
 
 ## intent:email_adresse
 - test123[@](mail)web.de
@@ -117,6 +134,7 @@
 - lara.jacob@thomassabo.com
 - werner@oas.de
 - y.stoecklein@thomassabo.com
+- thomas.bahlinger@th-nuernberg.de
 
 ## intent:dank
 - danke
@@ -133,6 +151,8 @@
 - Ja danke
 - du bist der hammer
 - ja, super danke
+- prima, danke!
+- ok, danke
 
 ## intent:zustimmung
 - ja
@@ -147,6 +167,10 @@
 - Bitte ja
 - ja super
 - ja bitte
+- ja, das war klasse!
+- geht so.
+- Also bitte benachrichtigen, ja
+- ok
 
 ## intent:ablehnung
 - nein
@@ -165,6 +189,10 @@
 - nein, danke
 - das war nicht meine Frage
 - nein bitte nicht
+- nein, danke, ciao
+- das ist nicht nötig. Danke
+- nein, das ist nicht nötig.
+- danke nein
 
 ## intent:weitere_frage
 - ich habe noch eine Frage
