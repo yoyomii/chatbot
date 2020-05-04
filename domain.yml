@@ -34,7 +34,7 @@ templates:
   utter_benachrichtigung_wenn_verfuegbar:
   - text: Sollen wir Sie benachrichtigen, wenn der Artikel wieder verfügbar ist?
   utter_benachrichtigung_einschalten:
-  - text: Bitte geben Sie ihre E-Mail Adresse ein!
+  - text: Um Sie benachrichtigen zu können, bräuchte ich ihre E-Mail Adresse.
   utter_bestaetigung:
   - text: Danke für Ihr Vertrauen! Sie werden benachrichtigt, wenn das Produkt wieder
       verfügbar ist.
@@ -65,7 +65,7 @@ templates:
   - text: Entschuldigen Sie mich, ich verstehe ihre Aussage nicht.
   - text: Das verstehe ich leider nicht. Können Sie das anders formulieren?
   utter_link:
-  - text: https://www.dhl.de/dhl-rpi/gw/rpcustomerweb/OrderAnon.action?__userlocale=DE&__gwfs=5715911584326118400
+  - text: https://amsel.dpwn.net/abholportal/gw/lp/portal/thomassabo/customer/RpOrder.action?delivery=RetourenLager02
 actions:
 - utter_begruessung
 - utter_verabschiedung

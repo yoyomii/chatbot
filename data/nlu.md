@@ -13,6 +13,9 @@
 - Hello
 - Grüß dich
 - hello
+- Hola
+- Bonjour
+- Grüß Gott
 
 ## intent:verabschiedung
 - Tschüss
@@ -58,6 +61,7 @@
 - Ich hätte gerne ein Label für die Retoure
 - Bei meiner Onlinebestellung war kein Rücksendeschein beigelegt
 - Ich bräuchte noch eine [Retourenlabel](label) für meine letzte bestellung, leider hat nicht alles gepasst
+- ich brauche ein [Retourenlabel](label)
 
 ## intent:artikelnummern
 - [WA0322](artikel)
@@ -104,6 +108,11 @@
 - [ist](artikelbezeichnung) [WA0343-201-215](artikel) noch verfügbar?
 - Ist der [Artikel](artikelbezeichnung) verfügbar?
 - Wo ist der nächste Shop
+- Ist der [Artikel](artikelbezeichnung) mit der [Nummer](artikelbezeichnung) [AR2341](artikel) noch auf Lager
+- Ist die [Uhr](artikelbezeichnung) [WA0322](artikel) noch auf Lager
+- Wie viel Stück [von](artikelbezeichnung) [KE1105](artikel) sind auf Lager?
+- [Lagerbestand](artikelbezeichnung) [KE1105](artikel)
+- Ist die [Uhr](artikelbezeichnung) [WA0332](artikel) verfügbar?
 
 ## intent:email_adresse
 - test123[@](mail)web.de
@@ -117,6 +126,9 @@
 - lara.jacob@thomassabo.com
 - werner@oas.de
 - y.stoecklein@thomassabo.com
+- l.brockschmidt@thomassabo.com
+- test@test.de
+- test@test
 
 ## intent:dank
 - danke
@@ -165,6 +177,9 @@
 - nein, danke
 - das war nicht meine Frage
 - nein bitte nicht
+- das war nicht hilfreich!
+- nein!
+- Nein! das war nicht meine Frage!
 
 ## intent:weitere_frage
 - ich habe noch eine Frage
